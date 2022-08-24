@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: 'Segoe UI';
   }
   
   body {
@@ -21,6 +21,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 0.2em;
+    border: 4px solid #ffff;
   }
   
   #calc h3 {
@@ -46,6 +48,8 @@
     font-weight: 700;
     padding: 0.2em;
     overflow-wrap: break-word;
+    background-color: #01a129;
+    margin-bottom: 0.2em;
   }
   
   #buttons-container {
@@ -74,9 +78,9 @@
   
   #buttons-container #igual-btn {
     grid-column: span 2;
-    background-color: #57d0b9;
+    background-color: #2cbdda;
   }
   
   #buttons-container #igual-btn:hover {
     grid-column: span 2;
-    background-color: #3ad8a1}
+    background-color: #05595c}
