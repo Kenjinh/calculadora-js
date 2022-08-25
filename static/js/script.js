@@ -14,13 +14,16 @@ function clearDisplay() {
     document.getElementById("current-operacoes").innerHTML = "";
     document.getElementById("previous-operacoes").innerHTML = "";
 }
+
 function deleteNumber() {
     var resultado = document.getElementById("current-operacoes").innerHTML;
     document.getElementById("current-operacoes").innerHTML = resultado.substring(0,resultado.length - 1);
 }
+
 function clearCurrent(){
     document.getElementById("current-operacoes").innerHTML = "";
 }
+
 function sum() {
     var current = document.getElementById("current-operacoes").innerHTML;
     var previous = document.getElementById("previous-operacoes").innerHTML;
