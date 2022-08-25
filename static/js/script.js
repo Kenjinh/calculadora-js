@@ -16,10 +16,7 @@ function clearDisplay() {
 }
 function deleteNumber() {
     var resultado = document.getElementById("current-operacoes").innerHTML;
-    document.getElementById("current-operacoes").innerHTML = resultado.substring(
-      0,
-      resultado.length - 1
-    );
+    document.getElementById("current-operacoes").innerHTML = resultado.substring(0,resultado.length - 1);
 }
 function clearCurrent(){
     document.getElementById("current-operacoes").innerHTML = "";
@@ -32,7 +29,7 @@ function sum() {
       document.getElementById("current-operacoes").innerHTML = eval(res);
       document.getElementById("previous-operacoes").innerHTML = ""
     } else {
-      document.getElementById("current-operacoes").innerHTML = "Nada...";
+      document.getElementById("current-operacoes").innerHTML = "";
     }
 }
   
